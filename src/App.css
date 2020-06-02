@@ -55,7 +55,8 @@ p {
 }
 
 .output {
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   border: none;
   outline: none;
   background-color: rgb(52, 52, 52);
@@ -78,6 +79,11 @@ p {
 .output a {
   color: white;
   text-decoration: none;
+}
+
+.output hr {
+  margin: 15px;
+  background-color: rgb(151, 151, 151);
 }
 
 @media screen and (max-width: 1150px) {
