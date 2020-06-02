@@ -63,4 +63,14 @@ p {
   height: 100%;
   max-height: 600px;
   color: rgb(151, 151, 151);
+  padding: 10px;
+}
+.output ul {
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .markdownPreview {
+    flex-direction: column;
+  }
 }
