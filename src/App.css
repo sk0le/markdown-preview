@@ -73,4 +73,10 @@ p {
   .markdownPreview {
     flex-direction: column;
   }
+  .txtAreaInput {
+    margin: 30px;
+  }
+  .output {
+    margin: 30px;
+  }
 }
